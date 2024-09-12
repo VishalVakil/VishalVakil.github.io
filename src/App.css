@@ -8,6 +8,24 @@
   pointer-events: none;
 }
 
+canvas {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  right: 0px;
+  top: 0px;
+}
+
+canvas.partic{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  right: 0px;
+  top: 0px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
