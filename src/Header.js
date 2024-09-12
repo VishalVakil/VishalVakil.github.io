@@ -31,6 +31,10 @@ function Header() {
     //  name: 'Projects',
     //  id: '#academic-projects'
     //},
+    {
+      name: 'Research Experience',
+      id: '#research'
+    },
     //{
     //  name: 'Publication',
     //  id: '#Publication'
