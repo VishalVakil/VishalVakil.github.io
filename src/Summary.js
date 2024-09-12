@@ -5,7 +5,7 @@ import Profile from './image/PROPHOTO_1.jpg'
 function Summary() {
   return (
     <section id="summary" className="py-5">
-    <canvas class="background">
+    <canvas class="background" style={{"position": "absolute", "height": "90vh", "top": "0", "bottom": "0", "left": "0", "right": "0", "z-index": "auto"}}>
       <div className="container" style={{ marginTop: '20px'}}>
         <div className="row">
           <div className="col-md-4 d-flex justify-content-center align-items-center">
