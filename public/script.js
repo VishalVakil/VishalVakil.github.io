@@ -7,20 +7,20 @@ Fonts - Google Fonts
 
 window.onload = function () {
   Particles.init({
-    selector: ".background"
+      selector: ".partic"
   });
 };
 const particles = Particles.init({
-  selector: ".background",
+  selector: ".partic",
   color: ["#000000", "#000000", "#000000"],
-  connectParticles: true,
-  maxParticles: 45,
+  connectParticles: false,
+  maxParticles: 100,
   responsive: [
     {
       breakpoint: 768,
       options: {
         color: ["#000000", "#000000", "#000000"],
-        maxParticles: 10,
+        maxParticles: 50,
         connectParticles: false
       }
     }
