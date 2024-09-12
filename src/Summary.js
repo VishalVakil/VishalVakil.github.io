@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from './image/PROPHOTO.jpg'
+import Profile from './image/PROPHOTO_1.jpg'
 
 function Summary() {
   return (
