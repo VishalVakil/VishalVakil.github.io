@@ -5,7 +5,7 @@ import Image from './image/bg.jpg'
 function Summary() {
   return (
     <section id="summary" className="py-5">
-      <div className="container" style={{ marginTop: '20px', 'background-image': '{Image}' }}>
+      <div className="container" style={{ marginTop: '20px', 'background-image': {Image} }}>
         <div className="row">
           <div className="col-md-4 d-flex justify-content-center align-items-center">
             <img src={Profile} alt="Profile" className="img-fluid rounded-circle square-image" />
