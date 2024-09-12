@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from './image/vvakil1@asu.edu-de981ac5.jpg'
+import Profile from './image/PROPHOTO.jpg'
 
 function Summary() {
   return (
