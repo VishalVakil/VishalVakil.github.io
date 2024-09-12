@@ -17,7 +17,6 @@ jobs:
           npm install
           npx update-browserslist-db@latest
           npm install --save-dev @babel/plugin-proposal-private-property-in-object
-          npm init @eslint/config@latest
           npm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
