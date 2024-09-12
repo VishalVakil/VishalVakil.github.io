@@ -13,7 +13,7 @@ window.onload = function () {
 const particles = Particles.init({
   selector: ".partic",
   color: ["#000000", "#000000", "#000000"],
-  connectParticles: false,
+  connectParticles: true,
   maxParticles: 100,
   responsive: [
     {
