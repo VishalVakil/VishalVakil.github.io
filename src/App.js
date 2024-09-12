@@ -6,7 +6,7 @@ import Education from './Education';
 //import Experience from './Experience';
 //import AcademicProjects from './AcademicProjects';
 //import Testimonials from './Testimonials';
-import Research_Papers_Patent from ./Research_Papers_Patent;
+import Research from ./Research;
 import Footer from './Footer';
 import Skills from './Skills';
 //import HonorsAndActivities from './HonorsAndActivities';
