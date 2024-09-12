@@ -20,7 +20,7 @@ const particles = Particles.init({
       breakpoint: 768,
       options: {
         color: ["#000000", "#000000", "#000000"],
-        maxParticles: 100,
+        maxParticles: 50,
         connectParticles: false
       }
     }
