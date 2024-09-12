@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Research_Papers_Patent() {
+function Research() {
   return (
-    <section id="Research" className="py-5">
+    <section id="research" className="py-5">
           <div className="container" style={{ marginTop: '20px' }}>
               <h2>Research Papers and Patent</h2>
               <p style={{ textAlign: "justify" }}>
@@ -18,4 +18,4 @@ function Research_Papers_Patent() {
   );
 }
 
-export default Research_Papers_Patent;
+export default Research;
