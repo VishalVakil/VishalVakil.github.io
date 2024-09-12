@@ -12,15 +12,15 @@ window.onload = function () {
 };
 const particles = Particles.init({
   selector: ".partic",
-  color: ["#FFFFFF", "#FFFFFF", "#FFFFFF"],
+  color: ["#000000", "#000000", "#000000"],
   connectParticles: false,
   maxParticles: 100,
   responsive: [
     {
       breakpoint: 768,
       options: {
-        color: ["#FFFFFF", "#FFFFFF", "#FFFFFF"],
-        maxParticles: 50,
+        color: ["#000000", "#000000", "#000000"],
+        maxParticles: 100,
         connectParticles: false
       }
     }
