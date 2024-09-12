@@ -11,10 +11,10 @@ function Header() {
       name: 'Introduction',
       id: '#summary'
     },
-    {
-      name: 'Experience',
-      id: '#experience'
-    },
+    //{
+    //  name: 'Experience',
+    //  id: '#experience'
+    //},
     {
       name: 'Skills',
       id: '#skills'
@@ -27,14 +27,14 @@ function Header() {
       name: 'Education',
       id: '#education'
     },
-    {
-      name: 'Projects',
-      id: '#academic-projects'
-    },
-    {
-      name: 'Publication',
-      id: '#Publication'
-    },
+    //{
+    //  name: 'Projects',
+    //  id: '#academic-projects'
+    //},
+    //{
+    //  name: 'Publication',
+    //  id: '#Publication'
+    //},
     {
       name: 'Contact',
       id: '#footer'
