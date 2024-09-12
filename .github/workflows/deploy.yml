@@ -14,9 +14,9 @@ jobs:
 
       - name: Install and Build
         run: |
-          npm install
-          npx update-browserslist-db@latest
-          npm install --save-dev @babel/plugin-proposal-private-property-in-object
+          # npm install
+          # npx update-browserslist-db@latest
+          # npm install --save-dev @babel/plugin-proposal-private-property-in-object
           npm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
