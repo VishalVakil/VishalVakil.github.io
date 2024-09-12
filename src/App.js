@@ -22,7 +22,7 @@ function App() {
               {/* <Experience /> */}
         <Skills />
         <Education />
-        <Research_Papers_Patent />
+        <Research />
               {/* <AcademicProjects /> */}
               {/* <Courses /> */}
               {/* <HonorsAndActivities /> */}
