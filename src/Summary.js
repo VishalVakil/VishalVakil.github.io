@@ -6,7 +6,6 @@ import Backg from './Backg';
 function Summary() {
     return (
         <section id="summary" className="py-5">
-            <Backg />
             <div className="container" style={{ marginTop: '20px' }}>
         <div className="row">
           <div className="col-md-4 d-flex justify-content-center align-items-center">
@@ -20,6 +19,7 @@ function Summary() {
           </div>
         </div>
       </div>
+      <Backg />
     {/* </canvas> */}
     </section>
   );
