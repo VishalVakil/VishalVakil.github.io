@@ -12,19 +12,19 @@ window.onload = function () {
 };
 const particles = Particles.init({
   selector: ".partic",
-  color: ["#000000", "#000000", "#000000"],
+  color: ["#FFFFFF", "#FFFFFF", "#FFFFFF"],
   connectParticles: false,
   maxParticles: 100,
-  // responsive: [
-  //   {
-  //     breakpoint: 768,
-  //     options: {
-  //       color: ["#000000", "#000000", "#000000"],
-  //       maxParticles: 50,
-  //       connectParticles: false
-  //     }
-  //   }
-  // ]
+  responsive: [
+    {
+      breakpoint: 768,
+      options: {
+        color: ["#FFFFFF", "#FFFFFF", "#FFFFFF"],
+        maxParticles: 50,
+        connectParticles: false
+      }
+    }
+  ]
 });
 /*
 class NavigationPage {
