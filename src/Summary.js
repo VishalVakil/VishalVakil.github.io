@@ -21,7 +21,7 @@ function Summary() {
                           - Social Impact: Mentored and provided education to underprivileged children at TIDE Organization and AJA Education and Foundation.
                           - Graduate Student Advocacy: Advocating for the rights and well-being of graduate students as an elected Assembly member in GPSA.
             </p>
-            <a href='https://drive.google.com/file/d/1ErYjwtAvZEUGjQl2RMCaf4Deo1k01kwQ/view?usp=sharing' target="_blank" download className="btn btn-secondary">Resume</a>
+            <a href='https://drive.google.com/file/d/1ErYjwtAvZEUGjQl2RMCaf4Deo1k01kwQ/view?usp=sharing' target="_blank" rel="noreferrer" download className="btn btn-secondary">Resume</a>
           </div>
         </div>
       </div>
