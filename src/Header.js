@@ -48,7 +48,7 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="/#">Vishal Vakil</a>
+        <a className="navbar-brand" href="/#"><link rel="icon" href="%PUBLIC_URL%/Logo.png" /> Vishal Vakil</a>
         <button
           className="navbar-toggler"
           type="button"
