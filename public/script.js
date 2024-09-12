@@ -15,16 +15,16 @@ const particles = Particles.init({
   color: ["#000000", "#000000", "#000000"],
   connectParticles: false,
   maxParticles: 100,
-  responsive: [
-    {
-      breakpoint: 768,
-      options: {
-        color: ["#000000", "#000000", "#000000"],
-        maxParticles: 50,
-        connectParticles: false
-      }
-    }
-  ]
+  // responsive: [
+  //   {
+  //     breakpoint: 768,
+  //     options: {
+  //       color: ["#000000", "#000000", "#000000"],
+  //       maxParticles: 50,
+  //       connectParticles: false
+  //     }
+  //   }
+  // ]
 });
 /*
 class NavigationPage {
