@@ -7,7 +7,7 @@ function Summary() {
       <div className="container" style={{ marginTop: '20px' }}>
         <div className="row">
           <div className="col-md-4 d-flex justify-content-center align-items-center">
-            <img src={Profile} alt="Profile Picture" className="img-fluid rounded-circle square-image" />
+            <img src={Profile} className="img-fluid rounded-circle square-image" />
           </div>
           <div className="col-md-8">
             <h2>Summary</h2>
