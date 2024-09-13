@@ -20,3 +20,12 @@ canvas {
     right: 0px;
     top: 0px;
 }
+
+canvas.partic{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  right: 0px;
+  top: 0px;
+}

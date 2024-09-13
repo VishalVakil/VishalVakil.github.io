@@ -47,6 +47,12 @@ canvas.partic{
   color: #61dafb;
 }
 
+.partic {
+  width: 300px; /* Adjust width as needed */
+  height: 300px; /* Adjust height to match width */
+  object-fit: cover;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
