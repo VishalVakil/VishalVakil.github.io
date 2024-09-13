@@ -9,7 +9,6 @@ function Backg() {
         "right": "0",
         "bottom": "0",
         "left": "0",
-        "opacity": "1",
         "transition": "all .2s",
         "visibility": "visible"}}></canvas>
     );
