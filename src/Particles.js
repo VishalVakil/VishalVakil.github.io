@@ -72,7 +72,7 @@ class Canvas extends Component {
             events: {
               onHover: {
                 enable: true,
-                mode: "repulse"
+                mode: "attract"
               },
               onClick: {
                 enable: false
