@@ -46,7 +46,7 @@ class Canvas extends Component {
               animation: {
                 enable: true,
                 speed: 3,
-                sync: true
+                sync: false
               }
             },
             links: {
@@ -60,7 +60,7 @@ class Canvas extends Component {
               enable: true,
               speed: 1,
               direction: "none",
-              random: false,
+              random: true,
               straight: false,
               outModes: {
                 default: "out"
