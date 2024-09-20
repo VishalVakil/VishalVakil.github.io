@@ -1,6 +1,6 @@
 import React from 'react';
 import Profile from './image/PROPHOTO_1.jpg';
-import Backg from './Backg';
+// import Backg from './Backg';
 //import Image from './image/bg.jpg'
 
 function Summary() {
@@ -19,7 +19,7 @@ function Summary() {
           </div>
         </div>
       </div>
-      <Backg />
+      {/* <Backg /> */}
     {/* </canvas> */}
     </section>
   );
