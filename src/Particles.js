@@ -71,7 +71,8 @@ class Canvas extends Component {
             detectsOn: "window",
             events: {
               onHover: {
-                enable: false
+                enable: true,
+                mode: "repulse"
               },
               onClick: {
                 enable: false
