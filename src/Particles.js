@@ -17,7 +17,7 @@ class Canvas extends Component {
         }}
         options={{
           fullScreen: {
-            enable: false
+            enable: true
           },
           particles: {
             number: {
