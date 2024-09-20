@@ -21,7 +21,7 @@ class Canvas extends Component {
           },
           particles: {
             number: {
-              value: 120,
+              value: 90,
               density: {
                 enable: true,
                 area: 800
@@ -34,7 +34,7 @@ class Canvas extends Component {
               type: "circle"
             },
             opacity: {
-              value: { min: 0.5, max: 0.7 },
+              value: { min: 0.5, max: 1 },
               animation: {
                 enable: true,
                 speed: 1,
