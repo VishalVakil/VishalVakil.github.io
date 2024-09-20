@@ -28,7 +28,7 @@ class Canvas extends Component {
               }
             },
             color: {
-              value: "#fff"
+              value: "#000"
             },
             shape: {
               type: "circle"
@@ -42,7 +42,7 @@ class Canvas extends Component {
               }
             },
             size: {
-              value: { min: 0.1, max: 2 },
+              value: { min: 0.1, max: 5 },
               animation: {
                 enable: true,
                 speed: 3,
