@@ -28,7 +28,7 @@ class Canvas extends Component {
               }
             },
             color: {
-              value: "#000"
+              value: "#fff"
             },
             shape: {
               type: "circle"
