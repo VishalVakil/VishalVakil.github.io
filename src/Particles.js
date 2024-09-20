@@ -42,7 +42,7 @@ class Canvas extends Component {
               }
             },
             size: {
-              value: { min: 0.1, max: 5 },
+              value: { min: 0.1, max: 2 },
               animation: {
                 enable: true,
                 speed: 3,
