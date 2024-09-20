@@ -17,7 +17,7 @@ class Canvas extends Component {
         }}
         options={{
           fullScreen: {
-            enable: true
+            enable: false
           },
           particles: {
             number: {
@@ -51,7 +51,7 @@ class Canvas extends Component {
             },
             links: {
               enable: false,
-              distance: 100,
+              distance: 200,
               color: "#000",
               opacity: 1,
               width: 1
