@@ -1,6 +1,7 @@
 import React from 'react';
 import ASU from './image/ASU.jpg';
 import NU from './image/NU.png';
+import './Education.css';
 
 function Education() {
     const degrees = [
@@ -25,7 +26,7 @@ function Education() {
     ];
 
     return (
-        <section id="education" styles={{scrollMarginTop: '100px'}} >
+        <section id="education">
             <div className="container" style={{marginTop:'25px'}}>
                 <div className="row">
                 <div className="col">

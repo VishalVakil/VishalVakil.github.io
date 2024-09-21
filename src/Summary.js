@@ -6,7 +6,7 @@ import Profile from './image/PROPHOTO_1.jpg';
 function Summary() {
     return (
         <section id="summary" className="py-5">
-            <div className="container" style={{ marginTop: '20px', scrollMarginTop: '100px' }}>
+            <div className="container" style={{ marginTop: '20px' }}>
         <div className="row">
           <div className="col-md-4 d-flex justify-content-center align-items-center">
             <img src={Profile} alt="Profile" className="img-fluid rounded-circle square-image" style={{ zIndex: '2' }}/>
