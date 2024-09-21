@@ -11,7 +11,7 @@ const Skills = () => {
 
     return (
         <section  className="py-2">
-            <div className="container" id="skills">
+            <div className="container" id="skills" styles={{scrollMarginTop: '100px'}}>
                 <h2>Skills</h2>
                 <div className="skills d-flex" style={{flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
                 {skills.map((skill, index) => (

@@ -25,7 +25,7 @@ function Education() {
     ];
 
     return (
-        <section id="education" >
+        <section id="education" styles={{scrollMarginTop: '100px'}} >
             <div className="container" style={{marginTop:'25px'}}>
                 <div className="row">
                 <div className="col">

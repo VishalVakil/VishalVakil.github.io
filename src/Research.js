@@ -3,7 +3,7 @@ import React from 'react';
 function Research() {
   return (
     <section id="research" className="py-5">
-          <div className="container" style={{ marginTop: '20px' }}>
+          <div className="container" style={{ marginTop: '20px', scrollMarginTop: '100px' }}>
               <h2>Research Papers and Patent</h2>
               <p style={{ textAlign: "justify" }}>
               <b>PATENT:</b> Applied for a Patent App No.: 202221000828, Title: <b>A MEDICATION INSPECTION AND PACKAGING DEVICE</b> at Mumbai, Intellectual Property India.<br />
