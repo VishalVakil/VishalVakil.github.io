@@ -141,4 +141,4 @@ const LeaderShip = () => {
     );
 }
 
-export default Leadership;
+export default LeaderShip;
