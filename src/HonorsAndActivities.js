@@ -131,7 +131,7 @@ const HonorsAndActivities = () => {
                     <div key={index} className="col-md-4 mb-4">
                         <div className={`skill`} style={{minHeight: '165px'}}>
                             <h4>{activity.title}</h4>
-                            <p><b>{activity.position}</b>{activity.details}</p>
+                            <p style={{textAlign: 'justify'}}><b>{activity.position}</b>{activity.details}</p>
                         </div>
                     </div>
                     ))}
