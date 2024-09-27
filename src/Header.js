@@ -41,7 +41,7 @@ function Header() {
     //},
     {
       name: 'Honors and Awards',
-      id: '#HonorsAndActivities'
+      id: '#honors-and-activities'
     },
     {
       name: 'Contact',

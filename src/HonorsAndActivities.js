@@ -51,19 +51,23 @@ const HonorsAndActivities = () => {
     const activities = [
         {
             title: "International Society of Automation, Students’ Chapter, Nirma University (ISA-SCNU)",
-            details: "Chief Editor: Managed event documentation, budgeting, and financial oversight for ISA, ensuring accurate records, engaging articles, and responsible resource allocation."
+            position: "Chief Editor: ",
+            details: "Managed event documentation, budgeting, and financial oversight for ISA, ensuring accurate records, engaging articles, and responsible resource allocation."
         },
         {
             title: "Togetherness In Development and Education (TIDE) Foundation",
-            details: "Volunteer: Contributed to TIDE foundation focused on helping and educating underprivileged children."
+            position: "Volunteer: ",
+            details: "Contributed to TIDE foundation focused on helping and educating underprivileged children."
         },
         {
             title: "Graduate and Professional Students Association (GPSA)",
-            details: "Elected Assembly Member: Advocated for graduate student needs and served as a liaison between departments and the Graduate and Professional Student Association (GPSA) at ASU."
+            position: "Elected Assembly Member: ",
+            details: "Advocated for graduate student needs and served as a liaison between departments and the Graduate and Professional Student Association (GPSA) at ASU."
         },
         {
             title: "ASU America Reads",
-            details: "Lead Tutor: Mentored K-8th grade students and guided tutors at ASU America Reads Program, enhancing educational outcomes across various sites."
+            position: "Lead Tutor: ",
+            details: "Mentored K-8th grade students and guided tutors at ASU America Reads Program, enhancing educational outcomes across various sites."
         },
     ];
     
@@ -127,7 +131,7 @@ const HonorsAndActivities = () => {
                     <div key={index} className="col-md-4 mb-4">
                         <div className={`skill`} style={{minHeight: '165px'}}>
                             <h4>{activity.title}</h4>
-                            <h6>{activity.details}</h6>
+                            <p><b>{activity.position}</b>{activity.details}</p>
                         </div>
                     </div>
                     ))}
