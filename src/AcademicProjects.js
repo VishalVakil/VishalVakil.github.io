@@ -32,7 +32,7 @@ const AcademicProjects = () => {
               {row.map((cell, cellIndex) => (
 
                 <td key={cellIndex}>
-                  {cellIndex === 3 ? (
+                  {cellIndex === 2 ? (
                     <a href={cell} target="_blank" rel="noopener noreferrer">
                       Link
                     </a>
