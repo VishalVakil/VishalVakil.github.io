@@ -141,4 +141,4 @@ const LeaderShip = () => {
     );
 }
 
-export default HonorsAndActivities;
+export default Leadership;
