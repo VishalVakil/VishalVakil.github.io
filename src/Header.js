@@ -27,10 +27,10 @@ function Header() {
       name: 'Education',
       id: '#education'
     },
-    //{
-    //  name: 'Projects',
-    //  id: '#academic-projects'
-    //},
+    {
+      name: 'Projects',
+      id: '#academic-projects'
+    },
     {
       name: 'Research Experience',
       id: '#research'

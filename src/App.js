@@ -4,7 +4,7 @@ import Header from './Header';
 import Summary from './Summary';
 import Education from './Education';
 //import Experience from './Experience';
-//import AcademicProjects from './AcademicProjects';
+import AcademicProjects from './AcademicProjects';
 //import Testimonials from './Testimonials';
 import Research from './Research';
 import Footer from './Footer';
@@ -23,7 +23,7 @@ function App() {
         <Skills />
         <Education />
         <Research />
-              {/* <AcademicProjects /> */}
+        <AcademicProjects />
               {/* <Courses /> */}
               {/* <HonorsAndActivities /> */}
         {/* <ContactForm /> */}
