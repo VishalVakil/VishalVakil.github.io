@@ -40,8 +40,8 @@ function Header() {
     //  id: '#Publication'
     //},
     {
-      name: 'Honors and Awards',
-      id: '#honors-and-activities'
+      name: 'Leadership',
+      id: '#leadership'
     },
     {
       name: 'Contact',
