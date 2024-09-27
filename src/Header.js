@@ -40,6 +40,10 @@ function Header() {
     //  id: '#Publication'
     //},
     {
+      name: 'Honors and Awards',
+      id: '#HonorsAndActivities'
+    },
+    {
       name: 'Contact',
       id: '#footer'
     },

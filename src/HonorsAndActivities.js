@@ -122,7 +122,7 @@ const HonorsAndActivities = () => {
 
             <div className="container " style={{marginTop: '2px'}} id='Activity'>
                 <h2>Leadership and Community Service</h2>
-                <div className="row">
+                <div className="row-1">
                     {activities.map((activity, index) => (
                     <div key={index} className="col-md-4 mb-4">
                         <div className={`skill`} style={{minHeight: '165px'}}>
