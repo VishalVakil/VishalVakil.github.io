@@ -19,6 +19,10 @@ function Header() {
       name: 'Skills',
       id: '#skills'
     },
+    {
+      name: 'Experience',
+      id: '#experience'
+    },
     //{
     //  name: 'Leetcode',
     //  id:'https://leetcode.com/u//',

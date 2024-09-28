@@ -9,3 +9,7 @@
     flex-direction: row-reverse;
     flex-wrap: wrap;
 }
+
+#experience {
+    scroll-margin-top: 100px;
+}

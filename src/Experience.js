@@ -12,7 +12,8 @@ const Experience = () => {
 ];
 
   return (
-    <div className="container" id='experience'>
+    <section id='experience'>
+    <div className="container">
       <div className="row">
                 <div className="col">
                     <h2 className="ml-3">Professional Experience</h2>
@@ -46,6 +47,7 @@ const Experience = () => {
         </tbody>
       </table>
     </div>
+    </section>
   );
 };
 
