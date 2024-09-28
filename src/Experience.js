@@ -49,4 +49,4 @@ const Experience = () => {
   );
 };
 
-export default AcademicProjects;
+export default Experience;
