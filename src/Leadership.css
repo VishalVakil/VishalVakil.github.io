@@ -13,3 +13,7 @@
     align-items: stretch;
     align-content: stretch;
 }
+
+#honors-and-activities {
+    scroll-margin: 100px;
+}

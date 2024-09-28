@@ -39,10 +39,10 @@ function Header() {
       name: 'Projects',
       id: '#academic-projects'
     },
-    //{
-    //  name: 'Publication',
-    //  id: '#Publication'
-    //},
+    {
+      name: 'Honours',
+      id: '#honors-and-activities'
+    },
     {
       name: 'Leadership',
       id: '#leadership'
