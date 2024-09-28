@@ -40,7 +40,7 @@ function Header() {
       id: '#academic-projects'
     },
     {
-      name: 'Honours',
+      name: 'Awards',
       id: '#honors-and-activities'
     },
     {
@@ -49,7 +49,7 @@ function Header() {
     },
     {
       name: 'Contact',
-      id: '#footer'
+      id: 'mailto:vakil.vishal17@gmail.com'
     },
   ];
 
