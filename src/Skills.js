@@ -20,25 +20,25 @@ const Skills = () => {
         <section  className="py-2">
             <div className="container" id="skills">
                 <h2>Skills</h2>
-                <div className="skills d-flex" style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
+                <div className="skills d-flex" style={{flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center'}}>
                 <h4>Programming & Scripting Languages: </h4>
                 {ProgrammingScripting.map((skill1, index) => (
                     <div key={index} className="skill">{skill1}</div>
                 ))}
                 </div>
-                <div className="skills d-flex" style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
+                <div className="skills d-flex" style={{flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center'}}>
                 <h4>Database & Querying Languages: </h4>
                 {DatabaseS.map((skill2, index) => (
                     <div key={index} className="skill">{skill2}</div>
                 ))}
                 </div>
-                <div className="skills d-flex" style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
+                <div className="skills d-flex" style={{flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center'}}>
                 <h4>Machine Learning Framework: </h4>
                 {MachineL.map((skill3, index) => (
                     <div key={index} className="skill">{skill3}</div>
                 ))}
                 </div>
-                <div className="skills d-flex" style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
+                <div className="skills d-flex" style={{flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center'}}>
                 <h4>Sofware Tool & Technologies: </h4>
                 {STT.map((skill4, index) => (
                     <div key={index} className="skill">{skill4}</div>
