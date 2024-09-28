@@ -1,14 +1,6 @@
 #footer {
     scroll-margin-top: 100px;
 }
-.row-1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    align-content: stretch;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-}
 
 #experience {
     scroll-margin-top: 100px;

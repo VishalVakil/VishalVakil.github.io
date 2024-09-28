@@ -1,4 +1,5 @@
 import React from 'react';
+import './Leadership.css';
 
 const LeaderShip = () => {
     // Define your honors and activities here

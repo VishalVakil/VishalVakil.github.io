@@ -1,0 +1,15 @@
+.row-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.row-2 {
+    display: contents;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+}

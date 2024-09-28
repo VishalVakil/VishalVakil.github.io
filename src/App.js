@@ -9,6 +9,7 @@ import AcademicProjects from './AcademicProjects';
 import Research from './Research';
 import Footer from './Footer';
 import Skills from './Skills';
+import HonorsAndActivities from './HonorsAndActivities';
 import Leadership from './Leadership';
 //import Courses from './CourseWork';
 // import ContactForm from './ContactForm';
@@ -19,13 +20,13 @@ function App() {
       <Header />
       <div className="content-section">
       <Summary />
-              {/* <Experience /> */}
         <Skills />
         <Experience />
         <Education />
         <Research />
         <AcademicProjects />
               {/* <Courses /> */}
+        <HonorsAndActivities />
         <Leadership />
         {/* <ContactForm /> */}
       </div>
