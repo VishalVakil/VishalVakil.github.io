@@ -16,7 +16,7 @@ const HonorsAndActivities = () => {
             details: "Lean Six Sigma: Define and Measure Tools, Machine Learning, Neural Networks and Deep Learning, RPA Basics"
         },
         {
-            bold: "Tutor of the Year Award and Recognition Award ",
+            bold: "Tutor of the Year Award" + <b>"and"</b> + "Recognition Award ",
             details: "for Significant Contributions to ASU America Reads by Arizona State University"
         },
     ];
@@ -78,7 +78,7 @@ const HonorsAndActivities = () => {
                 <h2>Honours, Awards and Certifications</h2>
                 <div className="row-2">
                     {honors.map((activity, index) => (
-                    <div key={index} className="col-md-4 mb-4">
+                    <div key={index}>
                         <div className={`skill`} style={{minHeight: '100%'}}>
                             <p style={{textAlign: 'justify'}}><b>{activity.bold}</b>{activity.details}</p>
                         </div>
