@@ -16,7 +16,7 @@ const HonorsAndActivities = () => {
             details: "Lean Six Sigma: Define and Measure Tools, Machine Learning, Neural Networks and Deep Learning, RPA Basics"
         },
         {
-            bold: "Tutor of the Year Award <b> and </b> Recognition Award ",
+            bold: "Tutor of the Year Award and Recognition Award ",
             details: "for Significant Contributions to ASU America Reads by Arizona State University"
         },
     ];
