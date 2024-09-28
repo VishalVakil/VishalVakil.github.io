@@ -28,12 +28,12 @@ function Header() {
       id: '#education'
     },
     {
-      name: 'Projects',
-      id: '#academic-projects'
-    },
-    {
       name: 'Research Experience',
       id: '#research'
+    },
+    {
+      name: 'Projects',
+      id: '#academic-projects'
     },
     //{
     //  name: 'Publication',

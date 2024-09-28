@@ -3,7 +3,7 @@ import './App.css';
 import Header from './Header';
 import Summary from './Summary';
 import Education from './Education';
-//import Experience from './Experience';
+import Experience from './Experience';
 import AcademicProjects from './AcademicProjects';
 //import Testimonials from './Testimonials';
 import Research from './Research';
@@ -21,6 +21,7 @@ function App() {
       <Summary />
               {/* <Experience /> */}
         <Skills />
+        <Experience />
         <Education />
         <Research />
         <AcademicProjects />

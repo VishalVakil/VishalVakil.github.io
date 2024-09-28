@@ -3,7 +3,7 @@ import './Research.css';
 
 function Research() {
   return (
-    <section id="research" className="py-5">
+    <section id="research" className="py-2">
           <div className="container" style={{ marginTop: '20px' }}>
               <h2>Research Papers and Patent</h2>
               <p style={{ textAlign: "justify" }}>
