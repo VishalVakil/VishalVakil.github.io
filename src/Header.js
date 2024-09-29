@@ -20,7 +20,7 @@ function Header() {
       id: '#skills'
     },
     {
-      name: 'Experience',
+      name: 'Professional Experience',
       id: '#experience'
     },
     //{
