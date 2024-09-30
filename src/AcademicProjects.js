@@ -32,9 +32,10 @@ const AcademicProjects = () => {
           {tableData.map((row, index) => (
             <tr key={index}>
               {row.map((cell, cellIndex) => (
-
                 <td key={cellIndex}>
-                  {cellIndex === 2 ? (
+                  {cellIndex === 1 ? (
+                    <p style={{ textAlign: 'justify' }}>{cell}</p>
+                  ) : cellIndex === 2 ? (
                     <a href={cell} target="_blank" rel="noopener noreferrer">
                       Link
                     </a>
