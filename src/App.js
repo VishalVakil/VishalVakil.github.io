@@ -11,6 +11,7 @@ import Footer from './Footer';
 import Skills from './Skills';
 import HonorsAndActivities from './HonorsAndActivities';
 import Leadership from './Leadership';
+import ContactForm from "./Contact"
 //import Courses from './CourseWork';
 // import ContactForm from './ContactForm';
 
@@ -28,7 +29,7 @@ function App() {
               {/* <Courses /> */}
         <HonorsAndActivities />
         <Leadership />
-        {/* <ContactForm /> */}
+        <ContactForm />
       </div>
       <Footer />
     </div>
