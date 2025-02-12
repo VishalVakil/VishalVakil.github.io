@@ -154,6 +154,7 @@ const Contact = () => {
 
     if (showThankYou) {
         return (
+            <section id="contact-vishal">
             <div style={styles.thankYouContainer}>
                 <div style={styles.thankYouCard}>
                     <div style={{ marginBottom: '24px', display: 'flex', justifyContent: 'center' }}>
@@ -176,6 +177,7 @@ const Contact = () => {
                     </button>
                 </div>
             </div>
+            </section>
         );
     }
 
@@ -183,10 +185,7 @@ const Contact = () => {
         <section id="contact-vishal">
         <div style={styles.container}>
             <div style={styles.header}>
-                <h2 style={styles.title}>Get in Touch</h2>
-                <p style={styles.subtitle}>
-                    Have a question or want to work together? Drop us a message below.
-                </p>
+                <h2 style={styles.title}>Drop me a Message!</h2>
             </div>
 
             <form onSubmit={handleSubmit} style={styles.form}>
