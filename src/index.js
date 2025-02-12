@@ -32,7 +32,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const renderPage = () => {
   const pathname = window.location.pathname;
-
+  console.log(window.location.pathname);
+  
   if (pathname === '/thankyou') {
     return <ThankYou />;
   } else {
