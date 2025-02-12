@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './contact.css';
+// import './contact.css';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -30,7 +30,7 @@ const Contact = () => {
         const formDetails = {
             ...formData,
             _subject: "New Message from Contact Form",
-            _next: "https://your-website.com/thank-you", // Customize to where you want to redirect
+            _next: "https://vishalvakil.github.io/thankyou", // Customize to where you want to redirect
             _captcha: "false"
         };
 
@@ -46,6 +46,9 @@ const Contact = () => {
             .then((data) => {
                 setStatus("Your message has been sent!");
                 setFormData({ name: '', email: '', message: '' });
+
+                // Manually navigate to the thank you page
+                window.location.href = '/thankyou'; // This will change the URL to /thankyou
             })
             .catch((error) => {
                 setStatus("Oops! Something went wrong.");
