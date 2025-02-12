@@ -127,7 +127,7 @@ const Contact = () => {
         setStatus('sending');
 
         try {
-            const response = await fetch('https://formsubmit.co/vakil.vishal17@gmail.com', {
+            const response = await fetch('https://formsubmit.co/eventspdpu@gmail.com', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
