@@ -49,7 +49,7 @@ function Header() {
     },
     {
       name: 'Contact',
-      id: 'mailto:vakil.vishal17@gmail.com'
+      id: '#contact-vishal'
     },
   ];
 
