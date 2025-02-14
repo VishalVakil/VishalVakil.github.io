@@ -27,6 +27,18 @@ function Footer() {
             target="_blank" rel="noopener noreferrer"
             data-mdb-ripple-color="dark"
           ><i className="fab fa-github"></i></a>
+          <a
+            href="https://scholar.google.com/citations?user=UxB-TbAAAAAJ&hl=en"
+            className="btn btn-link btn-floating btn-lg text-body m-1"
+            role="button"
+            target="_blank" rel="noopener noreferrer"
+            data-mdb-ripple-color="dark"
+          ><img
+    src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg"
+    alt="Google Scholar"
+    className="rounded-circle"
+    style={{ width: "30px", height: "30px" }}
+  /></a>
           {/* <p className="text-body m-1">Phone: +1 602-883-6135</p> */}
         </section>
       </div>
