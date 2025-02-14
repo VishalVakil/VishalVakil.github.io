@@ -37,7 +37,7 @@ function Footer() {
     src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg"
     alt="Google Scholar"
     className="rounded-circle"
-    style={{ width: "30px", height: "30px" }}
+    style={{ width: "20px", height: "20px", filter: "grayscale(100%)" }}
   /></a>
           {/* <p className="text-body m-1">Phone: +1 602-883-6135</p> */}
         </section>
