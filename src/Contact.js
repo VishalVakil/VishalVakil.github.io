@@ -126,7 +126,7 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setStatus('sending');
-        const formData = new FormData(event.target);
+        const formData = new FormData(e.target);
         formData.append("access_key", "9a42dcd5-5469-47a3-a734-0b607861f8c0");
 
         try {
