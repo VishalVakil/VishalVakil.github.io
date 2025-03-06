@@ -125,6 +125,7 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setStatus('sending');
+        formData.append("access_key", "9a42dcd5-5469-47a3-a734-0b607861f8c0");
 
         try {
             const response = await fetch('https://api.web3forms.com/submit', {
@@ -193,15 +194,15 @@ const Contact = () => {
                     <label htmlFor="name" style={styles.label}>
                         Name
                     </label>
-                   <input
-                        type="hidden"
-                        id="apikey"
-                        name="apikey"
-                        value="9a42dcd5-5469-47a3-a734-0b607861f8c0"
-                        onChange={handleChange}
-                        required
-                        style={styles.input}
-                    />
+                   // <input
+                   //      type="hidden"
+                   //      id="apikey"
+                   //      name="apikey"
+                   //      value="9a42dcd5-5469-47a3-a734-0b607861f8c0"
+                   //      onChange={handleChange}
+                   //      required
+                   //      style={styles.input}
+                   //  />
                     <input
                         type="text"
                         id="name"
