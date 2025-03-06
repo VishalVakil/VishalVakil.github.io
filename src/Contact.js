@@ -127,7 +127,7 @@ const Contact = () => {
         setStatus('sending');
 
         try {
-            const response = await fetch('https://formsubmit.co/vakil.vishal17@gmail.com', {
+            const response = await fetch('https://api.web3forms.com/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -193,6 +193,15 @@ const Contact = () => {
                     <label htmlFor="name" style={styles.label}>
                         Name
                     </label>
+                   <input
+                        type="hidden"
+                        id="apikey"
+                        name="apikey"
+                        value={9a42dcd5-5469-47a3-a734-0b607861f8c0}
+                        onChange={handleChange}
+                        required
+                        style={styles.input}
+                    />
                     <input
                         type="text"
                         id="name"
