@@ -5,7 +5,6 @@ const Contact = () => {
     const [status, setStatus] = useState('');
     const [showThankYou, setShowThankYou] = useState(false);
     const [formData, setFormData] = useState({
-        // access_key: "9a42dcd5-5469-47a3-a734-0b607861f8c0",
         name: '',
         email: '',
         message: ''
@@ -126,8 +125,6 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setStatus('sending');
-        const formData = new FormData(e.target);
-        formData.append("access_key", "9a42dcd5-5469-47a3-a734-0b607861f8c0");
 
         try {
             const response = await fetch('https://api.web3forms.com/submit', {
@@ -136,13 +133,17 @@ const Contact = () => {
                     'Content-Type': 'application/json',
                     'Accept': 'application/json'
                 },
-                body: JSON.stringify(formData)
+                body: JSON.stringify({
+                    ...formData,
+                    access_key: '9a42dcd5-5469-47a3-a734-0b607861f8c0'
+                })
             });
 
-            if (response.ok) {
+            const result = await response.json();
+
+            if (result.success) {
                 setStatus('success');
                 setFormData({
-                    // access_key: "9a42dcd5-5469-47a3-a734-0b607861f8c0",
                     name: '',
                     email: '',
                     message: ''
@@ -159,108 +160,99 @@ const Contact = () => {
     if (showThankYou) {
         return (
             <section id="contact-vishal">
-            <div style={styles.thankYouContainer}>
-                <div style={styles.thankYouCard}>
-                    <div style={{ marginBottom: '24px', display: 'flex', justifyContent: 'center' }}>
-                        <CheckCircle size={64} style={{ color: '#10B981' }} />
+                <div style={styles.thankYouContainer}>
+                    <div style={styles.thankYouCard}>
+                        <div style={{ marginBottom: '24px', display: 'flex', justifyContent: 'center' }}>
+                            <CheckCircle size={64} style={{ color: '#10B981' }} />
+                        </div>
+
+                        <h2 style={{ ...styles.title, marginBottom: '16px' }}>
+                            Thank You!
+                        </h2>
+
+                        <p style={{ ...styles.subtitle, marginBottom: '32px' }}>
+                            Your message has been successfully sent. I will get back to you as soon as possible.
+                        </p>
+
+                        <button
+                            onClick={() => setShowThankYou(false)}
+                            style={{ ...styles.button, maxWidth: '200px', margin: '0 auto' }}
+                        >
+                            Back to Contact
+                        </button>
                     </div>
-
-                    <h2 style={{ ...styles.title, marginBottom: '16px' }}>
-                        Thank You!
-                    </h2>
-
-                    <p style={{ ...styles.subtitle, marginBottom: '32px' }}>
-                        Your message has been successfully sent. I will get back to you as soon as possible.
-                    </p>
-
-                    <button
-                        onClick={() => setShowThankYou(false)}
-                        style={{ ...styles.button, maxWidth: '200px', margin: '0 auto' }}
-                    >
-                        Back to Contact
-                    </button>
                 </div>
-            </div>
             </section>
         );
     }
 
     return (
         <section id="contact-vishal">
-        <div style={styles.container}>
-            <div style={styles.header}>
-                <h2 style={styles.title}>Drop me a Message!</h2>
-            </div>
-
-            <form onSubmit={handleSubmit} style={styles.form}>
-                <div style={styles.formGroup}>
-                    <label htmlFor="name" style={styles.label}>
-                        Name
-                    </label>
-                   // <input
-                   //      type="hidden"
-                   //      id="apikey"
-                   //      name="apikey"
-                   //      value="9a42dcd5-5469-47a3-a734-0b607861f8c0"
-                   //      onChange={handleChange}
-                   //      required
-                   //      style={styles.input}
-                   //  />
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        required
-                        style={styles.input}
-                    />
+            <div style={styles.container}>
+                <div style={styles.header}>
+                    <h2 style={styles.title}>Drop me a Message!</h2>
                 </div>
 
-                <div style={styles.formGroup}>
-                    <label htmlFor="email" style={styles.label}>
-                        Email
-                    </label>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                        style={styles.input}
-                    />
-                </div>
-
-                <div style={styles.formGroup}>
-                    <label htmlFor="message" style={styles.label}>
-                        Message
-                    </label>
-                    <textarea
-                        id="message"
-                        name="message"
-                        value={formData.message}
-                        onChange={handleChange}
-                        required
-                        style={styles.textarea}
-                    />
-                </div>
-
-                <button
-                    type="submit"
-                    style={styles.button}
-                    disabled={status === 'sending'}
-                >
-                    <Send size={18} />
-                    {status === 'sending' ? 'Sending...' : 'Send Message'}
-                </button>
-
-                {status === 'error' && (
-                    <div style={styles.errorMessage}>
-                        Oops! Something went wrong. Please try again later.
+                <form onSubmit={handleSubmit} style={styles.form}>
+                    <div style={styles.formGroup}>
+                        <label htmlFor="name" style={styles.label}>
+                            Name
+                        </label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            value={formData.name}
+                            onChange={handleChange}
+                            required
+                            style={styles.input}
+                        />
                     </div>
-                )}
-            </form>
+
+                    <div style={styles.formGroup}>
+                        <label htmlFor="email" style={styles.label}>
+                            Email
+                        </label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            value={formData.email}
+                            onChange={handleChange}
+                            required
+                            style={styles.input}
+                        />
+                    </div>
+
+                    <div style={styles.formGroup}>
+                        <label htmlFor="message" style={styles.label}>
+                            Message
+                        </label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            value={formData.message}
+                            onChange={handleChange}
+                            required
+                            style={styles.textarea}
+                        />
+                    </div>
+
+                    <button
+                        type="submit"
+                        style={styles.button}
+                        disabled={status === 'sending'}
+                    >
+                        <Send size={18} />
+                        {status === 'sending' ? 'Sending...' : 'Send Message'}
+                    </button>
+
+                    {status === 'error' && (
+                        <div style={styles.errorMessage}>
+                            Oops! Something went wrong. Please try again later.
+                        </div>
+                    )}
+                </form>
             </div>
         </section>
     );
