@@ -4,7 +4,8 @@ import React from 'react';
 const Experience = () => {
   
   const tableData = [
-    ['Software Engineer (AI)', 'Padma AgRobotics', 'October 2024 - Present'],
+    ['Software Dev Engineer', 'Amazon Web Services', 'May 2025 - Present'],
+    ['Software Engineer (AI)', 'Padma AgRobotics', 'October 2024 - May 2025'],
     ['Machine Learning Engineer', 'Naya Energy', 'July 2024 - October 2024'],
     ['Software Engineer Intern', 'Sona Data Systems', 'June 2023 - August 2023'],
     ['Software Engineer', 'General Electric Company (GE)', 'June 2021 - August 2022'],
